@@ -30,15 +30,16 @@ class MediumTableCell: UICollectionViewCell, SelfConfiguringCell {
         
         imageView.layer.cornerRadius = 15
         imageView.clipsToBounds = true
-        imageView.setContentHuggingPriority(.defaultHigh, for: .horizontal)
         
         buyButton.setImage(UIImage(systemName: "icloud.and.arrow.down"), for: .normal)
+        
+        imageView.setContentHuggingPriority(.defaultHigh, for: .horizontal)
         buyButton.setContentHuggingPriority(.defaultHigh, for: .horizontal)
         
         let innerStackView = UIStackView(arrangedSubviews: [name, subtitle])
         innerStackView.axis = .vertical
         
-        let outerStackView = UIStackView(arrangedSubviews: [imageView, buyButton])
+        let outerStackView = UIStackView(arrangedSubviews: [imageView, innerStackView, buyButton])
         outerStackView.translatesAutoresizingMaskIntoConstraints = false
         outerStackView.alignment = .center
         outerStackView.spacing = 10
@@ -46,7 +47,6 @@ class MediumTableCell: UICollectionViewCell, SelfConfiguringCell {
         
         NSLayoutConstraint.activate([
             outerStackView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
-            outerStackView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor),
             outerStackView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
             outerStackView.topAnchor.constraint(equalTo: contentView.topAnchor)
         ])
