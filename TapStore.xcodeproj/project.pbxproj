@@ -21,6 +21,7 @@
 		5173343823428CF8003FF47B /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5173343123428CF8003FF47B /* Bundle-Decodable.swift */; };
 		5173343A23428D09003FF47B /* appstore.json in Resources */ = {isa = PBXBuildFile; fileRef = 5173343923428D09003FF47B /* appstore.json */; };
 		A4B6C460247E939000C2AE7A /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B6C45F247E939000C2AE7A /* SelfConfiguringCell.swift */; };
+		A4B6C464247E987E00C2AE7A /* FeaturedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B6C463247E987E00C2AE7A /* FeaturedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		5173343123428CF8003FF47B /* Bundle-Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		5173343923428D09003FF47B /* appstore.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = appstore.json; sourceTree = "<group>"; };
 		A4B6C45F247E939000C2AE7A /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
+		A4B6C463247E987E00C2AE7A /* FeaturedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				5173342C23428CF8003FF47B /* ArcadeViewController.swift */,
 				5173342E23428CF8003FF47B /* GamesViewController.swift */,
 				A4B6C45F247E939000C2AE7A /* SelfConfiguringCell.swift */,
+				A4B6C463247E987E00C2AE7A /* FeaturedCell.swift */,
 				5173342B23428CF8003FF47B /* SearchViewController.swift */,
 				5173343023428CF8003FF47B /* Section.swift */,
 				5173342F23428CF8003FF47B /* App.swift */,
@@ -170,6 +173,7 @@
 				5173343323428CF8003FF47B /* ArcadeViewController.swift in Sources */,
 				5173343623428CF8003FF47B /* App.swift in Sources */,
 				5173343823428CF8003FF47B /* Bundle-Decodable.swift in Sources */,
+				A4B6C464247E987E00C2AE7A /* FeaturedCell.swift in Sources */,
 				A4B6C460247E939000C2AE7A /* SelfConfiguringCell.swift in Sources */,
 				5173343223428CF8003FF47B /* SearchViewController.swift in Sources */,
 				5173341A23428A25003FF47B /* SceneDelegate.swift in Sources */,
