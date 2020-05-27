@@ -1,0 +1,2 @@
+# AppStoreCollectionView
+stack: CollectionView 
