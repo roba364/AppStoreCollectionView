@@ -22,6 +22,9 @@
 		5173343A23428D09003FF47B /* appstore.json in Resources */ = {isa = PBXBuildFile; fileRef = 5173343923428D09003FF47B /* appstore.json */; };
 		A4B6C460247E939000C2AE7A /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B6C45F247E939000C2AE7A /* SelfConfiguringCell.swift */; };
 		A4B6C464247E987E00C2AE7A /* FeaturedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B6C463247E987E00C2AE7A /* FeaturedCell.swift */; };
+		A4B6C466247EA18500C2AE7A /* MediumTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B6C465247EA18500C2AE7A /* MediumTableCell.swift */; };
+		A4B6C468247EA6EB00C2AE7A /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B6C467247EA6EB00C2AE7A /* SectionHeader.swift */; };
+		A4B6C46A247EAB8500C2AE7A /* SmallTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B6C469247EAB8500C2AE7A /* SmallTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		5173343923428D09003FF47B /* appstore.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = appstore.json; sourceTree = "<group>"; };
 		A4B6C45F247E939000C2AE7A /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
 		A4B6C463247E987E00C2AE7A /* FeaturedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCell.swift; sourceTree = "<group>"; };
+		A4B6C465247EA18500C2AE7A /* MediumTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumTableCell.swift; sourceTree = "<group>"; };
+		A4B6C467247EA6EB00C2AE7A /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		A4B6C469247EAB8500C2AE7A /* SmallTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				5173342C23428CF8003FF47B /* ArcadeViewController.swift */,
 				5173342E23428CF8003FF47B /* GamesViewController.swift */,
 				A4B6C45F247E939000C2AE7A /* SelfConfiguringCell.swift */,
+				A4B6C469247EAB8500C2AE7A /* SmallTableCell.swift */,
+				A4B6C467247EA6EB00C2AE7A /* SectionHeader.swift */,
+				A4B6C465247EA18500C2AE7A /* MediumTableCell.swift */,
 				A4B6C463247E987E00C2AE7A /* FeaturedCell.swift */,
 				5173342B23428CF8003FF47B /* SearchViewController.swift */,
 				5173343023428CF8003FF47B /* Section.swift */,
@@ -172,11 +181,14 @@
 				5173343423428CF8003FF47B /* AppsViewController.swift in Sources */,
 				5173343323428CF8003FF47B /* ArcadeViewController.swift in Sources */,
 				5173343623428CF8003FF47B /* App.swift in Sources */,
+				A4B6C46A247EAB8500C2AE7A /* SmallTableCell.swift in Sources */,
 				5173343823428CF8003FF47B /* Bundle-Decodable.swift in Sources */,
 				A4B6C464247E987E00C2AE7A /* FeaturedCell.swift in Sources */,
 				A4B6C460247E939000C2AE7A /* SelfConfiguringCell.swift in Sources */,
+				A4B6C466247EA18500C2AE7A /* MediumTableCell.swift in Sources */,
 				5173343223428CF8003FF47B /* SearchViewController.swift in Sources */,
 				5173341A23428A25003FF47B /* SceneDelegate.swift in Sources */,
+				A4B6C468247EA6EB00C2AE7A /* SectionHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
